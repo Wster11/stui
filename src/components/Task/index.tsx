@@ -1,5 +1,5 @@
 import React from "react";
-
+import './index.css';
 export interface TaskAttrs {
   id: string;
   title: string;

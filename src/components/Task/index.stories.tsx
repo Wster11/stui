@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Task, { TaskAttrs } from "./Task";
+import Task, { TaskAttrs } from "./index";
 
 export default {
   component: Task,
