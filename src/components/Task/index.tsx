@@ -19,7 +19,7 @@ export default function Task({
   onPinTask
 }: TaskProps) {
   return (
-    <div className={`list-item ${state}`}>
+    <div data-theme="light-theme" className={`list-item ${state}`}>
       <label className="checkbox">
         <input
           type="checkbox"
