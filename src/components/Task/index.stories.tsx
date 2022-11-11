@@ -35,3 +35,11 @@ Archived.args = {
     state: "TASK_ARCHIVED"
   }
 };
+
+export const Dark = Template.bind({});
+Dark.args = {
+  task: {
+    ...(Default.args.task as TaskAttrs),
+    theme: "dark"
+  }
+};

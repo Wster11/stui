@@ -1,5 +1,5 @@
-@import "../../style/variables.scss";
+@import "../../style/themes.scss";
 
 .title {
-  @include base-background();
+  background: theme-var($--theme-primary)
 }
